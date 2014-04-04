@@ -1,0 +1,96 @@
+body,html {
+  background: url("alyeska1.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#wrapper {
+    text-align: left;
+    margin: 0px auto;
+    padding: 0px;
+    width: 700px;
+    min-height: 100%;
+}
+#side-a {
+    float: left;
+    width: 240px;
+    height: 100%;
+}
+#side-b {
+    position: absolute;
+    right: 10px;
+    width: 270px;
+    height: 100%;
+}
+#content {
+    float: left;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+#container{
+  height: 100%;
+}
+.centerpic {
+  background: url("pointing.jpg");
+  background-size: cover;
+  position: absolute;
+  top: 30px;
+  width: 350px;
+  height:500px;
+  border-radius: 10px;
+}
+ul {
+    word-wrap: break-word;
+}
+.bottomleft {
+    background-image: url("bunnyears.jpg");
+    background-size: cover;
+    position:absolute;
+    width: 230px;
+    height: 220px;
+    bottom:10px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+.topright{
+    background: url("fishy.jpg");
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 20px;
+    width: 250px;
+    height: 250px;
+    margin-left: 15px;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+.info{
+    position: absolute;
+    top: 270px;
+    right: 5px;
+    width: 260px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+}
+.contact{
+    width: 235px;
+    margin: 5px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+.ethans_carousel{
+  position: absolute;
+  bottom: 0px;
+}
+h3{
+  text-align: center;
+}
+.picture{
+    color: white;
+    padding-left: 5px;
+}
