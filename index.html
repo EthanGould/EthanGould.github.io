@@ -33,7 +33,7 @@
             var counter=0;
             function ethansPhotos(){
               var ethans_carousel = document.getElementById("carousel_image")
-              if(counter>images.length) counter=0;
+              if(counter>=images.length) counter=0;
 
               ethans_carousel.setAttribute("src", images[counter]);
 
