@@ -1,96 +1,92 @@
-body,html {
-  background: url("alyeska1.jpg") no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+body, html{
+  max-width: 1100px;
+  height: 950px;
+  margin: 0 auto;
+  background-image: url("alyeska2.jpg");
+  background-position: center;
+
 }
-#wrapper {
-    text-align: left;
-    margin: 0px auto;
-    padding: 0px;
-    width: 700px;
-    min-height: 100%;
-}
-#side-a {
-    float: left;
-    width: 240px;
-    height: 100%;
-}
-#side-b {
-    position: absolute;
-    right: 10px;
-    width: 270px;
-    height: 100%;
-}
-#content {
-    float: left;
-    margin-left: 250px;
-    margin-right: 250px;
-}
-#container{
+.container{
+  position: relative;
+  clear: both;
+  width: 100%;
   height: 100%;
+  background-color: white;
 }
-.centerpic {
-  background: url("pointing.jpg");
-  background-size: cover;
-  position: absolute;
-  top: 30px;
-  width: 350px;
-  height:500px;
-  border-radius: 10px;
+.left{
+  width: 25%;
+  float: left;
+  padding: 15px;
 }
-ul {
-    word-wrap: break-word;
+.main{
+  width: 40%;
+  float: left;
+  padding: 15px;
 }
-.bottomleft {
-    background-image: url("bunnyears.jpg");
-    background-size: cover;
-    position:absolute;
-    width: 230px;
-    height: 220px;
-    bottom:10px;
-    margin-left: 10px;
-    border-radius: 10px;
-}
-.topright{
-    background: url("fishy.jpg");
-    background-size: cover;
-    position: absolute;
-    top: 0px;
-    right: 20px;
-    width: 250px;
-    height: 250px;
-    margin-left: 15px;
-    margin-top: 5px;
-    border-radius: 10px;
-}
-.info{
-    position: absolute;
-    top: 270px;
-    right: 5px;
-    width: 260px;
-    margin-top: 5px;
-    margin-bottom: 10px;
-    padding: 10px;
-    background-color: white;
-    border-radius: 10px;
+.right{
+  float: left;
 }
 .contact{
-    width: 235px;
-    margin: 5px;
-    background-color: white;
-    border-radius: 10px;
-    padding: 10px;
+  position: absolute;
+  top: 30px;
+  width: 250px;
+  border: solid black 2px;
+}
+.info{
+  position: absolute;
+  top: 350px;
+  margin: 15px 10px 0 0;
+  border: solid black 2px;
+}
+.image1{
+  position: absolute;
+  bottom: 15px;
+  background-image: url("pointup.jpg");
+  background-size: cover;
+  width: 250px;
+  height: 250px;
+}
+.image2{
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background-image: url("HandE.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+}
+.image3{
+  position: absolute;
+  top: 100px;
+  background-image: url("snowday.jpg");
+  background-size: cover;
+  height: 500px;
+  width: 430px;
+}
+.caption{
+  position:absolute;
+  bottom: 0px;
+  margin: 0px;
+  color: white;
+  height:50px;
+  width: 100%;
+  padding-top: 10px;
+  text-align: center;
 }
 .ethans_carousel{
   position: absolute;
-  bottom: 0px;
+  top: 625px;
 }
-h3{
+h1{
+  font-family: 'Trade Winds', cursive;
+  color: rgb(36, 122, 198);
   text-align: center;
 }
-.picture{
-    color: white;
-    padding-left: 5px;
+h3{
+  font-family: 'Trade Winds', cursive;
+  text-align: center;
+}
+p{
+  padding: 15px 15px 15px 15px;
+  margin: 0px;
 }
